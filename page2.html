@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookverse-search</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="page2.css">
+</head>
+<body >
+  <div class="search-bar">
+    <div class="search-input">
+      <input id="searchInput" type="text" placeholder="Title, Author, Genre, Publish date">
+      <button id="searchButton" type="submit">Search</button>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-12 text-center" id="searchCount">
+      
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 30px;">
+    <div class="row" id="searchResults" ></div>
+    <div class="text-center">
+      <div id="loadingMsg" style="display: none;">
+        <span class="spinner-border" role="status"></span>
+        Loading...
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="page2.js"></script>
+
+</body>
+</html>

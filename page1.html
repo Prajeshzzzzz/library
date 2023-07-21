@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookverse-Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body >
+  <div  id="image-slider" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#image-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#image-slider" data-slide-to="1"></li>
+      <li data-target="#image-slider" data-slide-to="2"></li>
+      <li data-target="#image-slider" data-slide-to="3"></li>
+      <li data-target="#image-slider" data-slide-to="4"></li>
+    </ol>
+
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="page1.html"><img src="image/comics.png" alt="Image 1"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="page2.html"><img src="image/THRILLER banner.png" alt="Image 2"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="page3.html"><img src="image/HORROR banner.png" alt="Image 3"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="page4.html"><img src="image/MOVIE banner.png" alt="Image 4"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="page5.html"><img src="image/SCI-FI banner.png" alt="Image 5"></a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a style="color: #fff;">BOOKVERSE</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Search</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="privacy.html">Privacy Policy</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="tc.html">terms and Conditions</a>
+          </div>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </nav>
+  <div class="container" style=" background-color: #333; margin-top:50px; margin-bottom: 50px;" >
+    <div class="row" id="bookList"></div>
+    <div class="text-center">
+      <div id="loadingMsg" style="display: none;">
+        <span class="spinner-border" role="status"></span>
+        Loading...
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="tc.html">Terms and Conditions</a>
+    <div class="text-center" style="padding-top: 50px;">
+      <a href="#">Mail</a><a href="#">Instagram</a><a href="#">Linkedin</a>
+    </div>
+  <div class="text-center" style="padding-top: 100px;">
+    <p>&copy;2023 Bookverse Library Inc. All rights reserved.</p>
+  </div>
+  </div>
+  
+  
+  
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="page1.js"></script>
+</body>
+</html>

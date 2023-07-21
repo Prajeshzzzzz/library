@@ -1,0 +1,171 @@
+#image-slider {
+    margin: 2px auto; 
+    width:calc(100% - 4px); 
+    padding-bottom: 0px; 
+    max-width: 4000px;
+  }
+
+  #image-slider .carousel-inner {
+    height: 100%; 
+    border-radius: 5px; 
+  }
+
+  #image-slider .carousel-inner .carousel-item {
+    height: 100%;
+  }
+
+  #image-slider .carousel-inner .carousel-item img {
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+  }
+
+  .genre-row-container {
+    overflow-x: auto;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    background-color: #2C3E50;
+    color: antiquewhite;
+  }
+  .genre-row {
+    display: inline-flex;
+    
+  }
+  .genre-row .card {
+    flex: 0 0 auto;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 37, 38);
+    
+    
+  }
+  .genre-row .card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .genre-row .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .genre-row .card .card-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .genre-row .card .card-text {
+    font-size: 10px;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  
+  @media (min-width: 576px) {
+    .genre-row .card {
+      width: 165px;
+    }
+    .genre-row .card .card-img-top {
+      height: 220px;
+    }
+    .genre-row .card .card-title {
+      font-size: 14px;
+      height: 22px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .genre-row .card .card-text {
+      font-size: 11px;
+      height: 80px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .genre-row .card {
+      width: 180px;
+    }
+    .genre-row .card .card-img-top {
+      height: 240px;
+    }
+    .genre-row .card .card-title {
+      font-size: 15px;
+      height: 22px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .genre-row .card .card-text {
+      font-size: 12px;
+      height: 90px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .genre-row .card {
+      width: 195px;
+    }
+    .genre-row .card .card-img-top {
+      height: 260px;
+    }
+    .genre-row .card .card-title {
+      font-size: 16px;
+      height: 40px;
+    }
+    .genre-row .card .card-text {
+      font-size: 13px;
+      height: 95px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .genre-row .card {
+      width: 210px;
+    }
+    .genre-row .card .card-img-top {
+      height: 280px;
+    }
+    .genre-row .card .card-title {
+      font-size: 17px;
+      height: 50px;
+    }
+    .genre-row .card .card-text {
+      font-size: 14px;
+      height: 100px;
+    }
+  }
+
+  
+  .footer {
+    background-color: #080808;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    background-color: #2C3E50;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  
+    
+  }
